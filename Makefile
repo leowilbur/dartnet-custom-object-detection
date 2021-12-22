@@ -4,13 +4,8 @@ OPENCV=1
 OPENMP=0
 DEBUG=0
 
-ARCH= -gencode arch=compute_35,code=sm_35 \
-      -gencode arch=compute_50,code=[sm_50,compute_50] \
-      -gencode arch=compute_52,code=[sm_52,compute_52] \
-	    -gencode arch=compute_61,code=[sm_61,compute_61] \
-      -gencode arch=compute_37,code=sm_37
-
-ARCH= -gencode arch=compute_60,code=sm_60
+# https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/
+ARCH= -gencode arch=compute_37,code=sm_37 #Tesla K80
 
 VPATH=./src/:./examples
 SLIB=libdarknet.so

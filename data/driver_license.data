@@ -1,0 +1,5 @@
+classes= 5
+train  = data/driver_license_train.txt
+valid  = data/driver_license_val.txt
+names = data/driver_license.names
+backup = backup_driver_license
