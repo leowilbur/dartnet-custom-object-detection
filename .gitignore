@@ -9,12 +9,10 @@ old/
 mnist/
 caffe/
 grasp/
-images/
 opencv/
 convnet/
 decaf/
 submission/
-cfg/
 darknet
 .fuse*
 
