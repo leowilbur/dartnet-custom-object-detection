@@ -6,7 +6,6 @@ opencv/
 convnet/
 decaf/
 submission/
-darknet
 .fuse*
 
 # OS Generated #

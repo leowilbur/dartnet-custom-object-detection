@@ -1,5 +1,0 @@
-classes= 5
-train  = data_green_card/train.txt
-valid  = data_green_card/val.txt
-names = data_green_card/custom.names
-backup = backup_green_card
