@@ -6,7 +6,7 @@ DEBUG=0
 
 # https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/
 # ARCH= -gencode arch=compute_37,code=sm_37 #Tesla K80
-ARCH= -gencode arch=compute_37,code=sm_37 # Tesla T4
+ARCH= -gencode arch=compute_75,code=sm_75 # Tesla T4
 
 
 VPATH=./src/:./examples
